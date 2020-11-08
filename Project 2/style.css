@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+    transition: .2s;
+    
+}
+
+body{
+    background-image: url("images/solar\ panels.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+main{
+    display: flex;
+}
+
+.header {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: rgba(223, 116, 16, 0.534);
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@media only screen and (max-width: 1179px) {
+    .header{
+        display: block;
+    }
+    .header div h1{
+        margin-top: 20px;
+     }
+  }
+
+  @media only screen and (max-width: 480px) {
+    .header div h1{
+        margin: 20px 0;
+     }
+    
+  }
+
+.header div h2{
+   font-size: 22px;
+}
+.header div h1{
+    color: rgb(89, 61, 214);
+    line-height: 40px;
+    font-size: 50px;
+    
+}
+
+.header a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px 0;
+    overflow: hidden;
+    background: rgba(223, 116, 16, 0.534);
+    background-image: url("images/sunrise.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar ul li{
+    display: inline;
+  }
+
+.navbar ul li .logo{
+    position: relative;
+    bottom: 500px;
+    width: 300px;
+    height: 200px;
+    right: 0;
+    top: 80px;
+    
+}  
+.navbar  li a {
+    display: inline;
+    color: rgb(134, 25, 161);
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 480px) {
+    
+    .navbar  li a {
+        display: block;
+        margin: 0 20px;
+    }
+    .navbar ul {
+        padding: 0 0 20px;
+    }
+       
+}
+
+.navbar li a:hover {
+    background: rgba(223, 116, 16, 0.534);
+}
+
+.container{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+article{
+    width: 400px;
+    border: 1px solid #ccc;
+    margin: 8px;
+
+}
+article img{
+    width: 50%;
+}
+article footer{
+    padding: 8px 8px 20px;
+    border-top: 1px solid rgb(77, 28, 192);
+}
+article footer h2{
+    margin-bottom: 8px;
+    color: lightseagreen;
+}
+article .article-detail{
+    color: #349b79;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+article a{
+    text-decoration: none;
+    background: rgba(223, 116, 16, 0.534);
+    color: white;
+    padding: 8px;
+    border-radius: 3px;
+}
+article a:hover{
+    background: #57007a ;
+}
+
+aside{
+    width: 40%;
+    padding: 30px 10px;
+}
+
+@media only screen and (max-width: 1179px) {
+    main{
+        display: block;
+    }
+    aside{
+        width: 100%;
+        padding: 30px 10px;
+    text-align: center;
+
+    }
+  }
+
+aside ol{
+    margin-top: 20px;
+}
+aside li{
+
+    margin-bottom: 7px;
+    font-size: 15px;
+    color: #f8f0f0;
+}
+aside h3{
+    color: lawngreen;
+}
+
+.footer {
+    width: 100%;
+    background-color: rgba(51, 51, 51, 0.514);
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+
+
+.cookie{
+      cursor: pointer;
+      position: fixed;
+      padding: 10px;
+      bottom: 0;
+      right: 0;
+      color: #FFF;
+      opacity: .5;
+      background-color: orange;
+}
+
+.logo{
+      height:80px;
+      width: 150px;
+     position: relative;
+     top: 35px;
+}
+video{
+      height:300px;
+      width: 500px;
+      display: flex;
+      align-items: center;
+      padding-left: 300px;
+}
+
+
+
